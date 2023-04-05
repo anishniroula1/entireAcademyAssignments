@@ -6,8 +6,6 @@ import static org.junit.Assert.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
-import com.techelevator.FruitTree;
-
 public class FruitTreeTest {
 	
 	@Before

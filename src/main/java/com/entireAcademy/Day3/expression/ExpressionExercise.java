@@ -32,6 +32,7 @@ public class ExpressionExercise {
 //        } else {
 //            return false;
 //        }
+
         return (aSmile && bSmile) || (!aSmile && !bSmile);
     }
 
