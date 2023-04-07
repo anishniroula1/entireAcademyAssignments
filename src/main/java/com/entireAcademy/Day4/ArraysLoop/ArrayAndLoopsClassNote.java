@@ -4,88 +4,89 @@ import java.util.Arrays;
 
 public class ArrayAndLoopsClassNote {
     public static void main(String[] args) {
-        int[] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-        numbers[2] = 3;
-        numbers[3] = 4;
-        numbers[4] = 5;
-//        System.out.println(numbers[1]);
-        numbers[1] = 10;
-
-//        System.out.println(numbers[1]);
-
-//        int[] myArray = {1,2,4,5,6};
+//        int[] myArray = new int[3];
+//        try {
+//            myArray[0] = 1;
+//            myArray[1] = 2;
+//            myArray[2] = 3;
+//            System.out.println(Arrays.toString(myArray));
+//        } catch (ArrayIndexOutOfBoundsException e) {
+//            System.out.println(e.getMessage());
+//        }
 //
-//        System.out.println(Arrays.toString(myArray));
+//        int[] secondArray = {1,2,3,4,5,6745,323,2323,232,32,323,23,23,232,323};
+//        System.out.println(Arrays.toString(secondArray));
 
-//        int[] myArray = {1, 2, 3, 4, 5};
-//        for (int i = 0; i < myArray.length; i++) {
-//            System.out.println(myArray[i]);
+//        for (// initilization, condition, increment or decrement) {
+//        statement
+//        i = i + 1;
+//        i = i -1
+//        for (int i = 0; i < 10; i++) {
+//            if (i % 2 == 1) {
+//                System.out.println(i);
+//            }
 //        }
 
-//        int[][] multiDim = {{123,123,124}, {000,1212, 121212}};
+//        int[][] multiDim = {{1,2,3}, {3,4,5}, {6,4,2}};
 
-//        int[] myArray = {5, 3, 1, 2, 4};
-//        Arrays.sort(myArray);
-//        System.out.println(Arrays.toString(myArray)); // Output: [1, 2, 3, 4, 5]
+//        String[] name = {"Anish", "Ganesh", "Suman", "mamta"};
+//        System.out.println(name[0]);
+//        name[2] = "Shyam";
 
-//        String[] myArray = {"JavaFX", "HBase", "OpenCV", "Java", "Hadoop","Neo4j"};
-//        Arrays.sort(myArray);
-//        System.out.println(Arrays.toString(myArray));
-
-//        for (int i = 1; i <= 10; i++) {
-//            System.out.println(i);
+//        for (int i = 0; i < name.length; i++) {
+//            if (i == 2) {
+//                name[i] = "Ram";
+//            }
+//            System.out.println(name[i]);
 //        }
 
-//        int sum = 10;
-//        for (int i = 0; i <= 10; i++) {
-//            sum += i;
-//            System.out.println(sum);
-//        }
-////        System.out.println(sum);
+//        // initilization
+//        while (//condition) {
+//        //statement
+//        // increment or decrement
 //    }
-
-//        for (int i = 10; i >= 1; i--) {
+//        int i = 0;
+//        while (i < 10) {
+//            if (i == 4) {
+//                break;
+//            }
 //            System.out.println(i);
-//        }
-
-//        int i = 1;
-//        while(i <= 20) {
-//            if (i % 2 == 0) {
-////                System.out.println(i);
-////            }
-////            if (i == 7) {
-////                break;
-////            }
-////            i++;
-////            // code block
-////            // increment/decrement
-//        }
-//        int i = 5;
-//        while (i <= 4) {
-//            System.out.println(i + "While loop");
 //            i++;
 //        }
+
+        // initilization
+//        do {
+//            // statement
+//                increment
+//        } while (//condition);
+
+//        int i = 0;
 //
 //        do {
-//            System.out.println(i + " do-while loop");
+//            if (i % 2 == 1) {
+//                System.out.println(i);
+//            }
+////            System.out.println(i);
+//            i++;
+//        } while (i < 10);
+
+//        int i = 5;
+//        do {
+//            System.out.println(i);
 //            i++;
 //        } while (i <= 4);
 
-//        String[] myArray = {"JavaFX", "HBase", "OpenCV", "Java", "Hadoop","Neo4j"};
-//        int arrayLength = myArray.length;
-//        for (int i = 0; i <= arrayLength - 1; i++) {
-//            for (int j = i + 1; j < arrayLength; j++) {
-//                if (myArray[i].compareTo(myArray[j]) > 0) {
-//                    String temp = myArray[i];
-//                    myArray[i] = myArray[j];
-//                    myArray[j] = temp;
-//                }
-//            }
-//        }
-//
-//        System.out.println(Arrays.toString(myArray));
+//        String[] name = {"Anish", "Ganesh", "Suman", "mamta"};
+
+
+        for (int i = 0; i <= 10; i++) {
+            if (i % 2 == 0) {
+                for (int j = 0; j <= 5; j++) {
+                    System.out.println("J: " + j);
+                }
+            }
+            System.out.println("i: " + i);
+        }
 
     }
 
