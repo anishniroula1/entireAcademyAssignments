@@ -42,9 +42,21 @@
 1. JavaScript was originally called Mocha and then changed to LiveScript before finally being named JavaScript.
 2. The name change was mainly a marketing decision to capitalize on the popularity of Java at the time.
 
+## What is Data?
+- Data is anything that holds information.
+- For example: numbers, words, letters, financial information, news, videos, images. These all things are data.
+
+## What is Type?
+- Type indicates what kind of data are those.
+- For example: 123 is Number, "abc" is letters
+- Let's look at this animals image
+- ![image](https://www.shutterstock.com/image-photo/group-africa-animals-isolated-on-260nw-278307470.jpg)
+- We can see multiple animals, but each one of them are different animal. For Ex: Lion, Rino, Deer etc
+- Let's look at another picture of People
+- ![image](https://i.insider.com/580fc4cdb28a6436008b4d04?width=1000&format=jpeg&auto=webp)
+- In this picture, we have people from different region, and these people are different Data types, different from animal data type.
 
 ## Java Data Types
-
 1. Java is an object-oriented language, which means that everything in Java is an object.
 2. Java has eight primitive data types: byte, short, int, long, float, double, boolean, and char.
 3. Each data type has a specific range of values and takes up a specific amount of memory.
