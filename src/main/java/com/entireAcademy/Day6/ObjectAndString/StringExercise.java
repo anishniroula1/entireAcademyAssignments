@@ -31,7 +31,7 @@ public class StringExercise {
      makeTags("cite", "Yay") → "<cite>Yay</cite>"
      */
     public String makeTags(String tag, String word) {
-        return null;
+        return "<"+tag+">"+word+"</"+tag+">";
     }
 
     /*
