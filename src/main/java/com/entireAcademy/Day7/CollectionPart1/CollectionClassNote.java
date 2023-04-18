@@ -1,73 +1,94 @@
 package com.entireAcademy.Day7.CollectionPart1;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import com.entireAcademy.Day9.OOPPart1.ClassesExercise.Person;
+
+import java.util.*;
 
 public class CollectionClassNote {
     public static void main(String[] args) {
-//    for (dataType variableName : collection) {
+//        int[] numbers = {1,2,3,4,5,6,7};
 //
-//    }
-
-//        String[] words = {"Hello", "world"};
-//
-//        for (String word : words) {
-//            System.out.println(word);
+//        for (int i = 0; i<numbers.length; i++) {
+//            System.out.println(numbers[i]);
 //        }
 
-//        ArrayList<String> names = new ArrayList<>();
-//
-//        names.add("Bishal");
-//        names.add("Parvati");
-//        names.add("Parvati");
-//////
-////        names.remove(0);
-//////
-////        boolean hasName = names.contains("Bishal");
-////        System.out.println(hasName);
-//        names.set(2, "Joshnson");
-//
-//        for(String name : names) {
-//            System.out.println(name);
+//        int i = 0;
+//        for(int num : numbers) {
+//            System.out.println(i);
+//            i++;
 //        }
 
-        // Autoboxing and Unboxing
-//        int number = 100;
-//        Integer num = number;
+//        String[] fruits = {"Mango", "Apple", "Banana"};
+//        for (String fruit : fruits) {
+//            if (fruit.equals("Mango")) {
+//                System.out.println(fruit + " found");
+//            }
+//            else {
+//                System.out.println(fruit);
+//            }
+//        }
+
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        numbers.add(1);
+        numbers.add(6);
+        numbers.add(7);
+        numbers.add(8);
+
+
+//        Integer getThirdIndex = numbers.get(3);
+//        numbers.remove(3);
+
+//        System.out.println(numbers.size());
 //
-//        System.out.println(num);
-
-//        Integer rollNum = 10;
-//        int studentNumber = rollNum;
+//        System.out.println(numbers);
 //
-//        System.out.println(studentNumber);
-
-//        boolean tf = true;
-//        Boolean bol = tf;
-
-        // Queues
-        Queue<String> names = new LinkedList<String>();
-        names.add("Student 1");
-        names.add("Student 2");
-        names.add("Student 3");
-        names.add("Student 4");
-
-//        names.remove();
-//        names.remove();
-//        names.remove();
-//        names.remove();
-
-        boolean empty = names.isEmpty();
+//        for (int num : numbers) {
+//            System.out.println(num);
+//        }
 
 
-//        System.out.println(names.size());
+//        ArrayList<String> fruitsName = new ArrayList<>();
+//        fruitsName.add("Mango");
+//        fruitsName.add("Apple");
+//        fruitsName.add("Banana");
+//
+////        fruitsName.get(3);
+//        Boolean hasFruit = fruitsName.contains("Bananaa");
+//
+//        System.out.println(hasFruit);
+//
+//        for (String fruit: fruitsName) {
+//            System.out.println(fruit);
+//        }
 
-        for (String name : names) {
+        // Autoboxing
+//        int i = 10;
+//        Integer x = i;
+//
+//        char letter = 'L';
+//        Character y = letter;
+
+        // Unboxing
+//        Integer num = 10;
+//        int z = num;
+
+        // Queue
+
+        Queue<String> personNames = new LinkedList<>();
+
+        personNames.add("Bob");
+        personNames.add("Sam");
+
+//        personNames.remove();
+//        personNames.remove();
+//
+//        Boolean hasNames = personNames.isEmpty();
+//
+//        System.out.println(personNames.size());
+
+        for (String name : personNames) {
             System.out.println(name);
         }
-
-
     }
 
 

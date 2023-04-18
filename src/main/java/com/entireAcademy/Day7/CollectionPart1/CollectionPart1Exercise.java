@@ -45,7 +45,13 @@ public class CollectionPart1Exercise {
      no4LetterWords( {"Jack", "Jill", "Jane", "John", "Jim"} )  ->  ["Jim"]
      */
     public List<String> no4LetterWords(String[] stringArray) {
-        return null;
+        ArrayList<String> no4LetterWords = new ArrayList<>();
+        for (String word : stringArray) {
+            if (word.length() != 4) {
+                no4LetterWords.add(word);
+            }
+        }
+        return no4LetterWords;
     }
 
 
@@ -95,10 +101,19 @@ public class CollectionPart1Exercise {
      Given a List of Integers, and an int value, return true if the int value appears two or more times in
      the list.
      foundIntTwice( [5, 7, 9, 5, 11], 5 ) -> true
-     foundIntTwice( [6, 8, 10, 11, 13], 8 -> false
+     foundIntTwice( [6, 8, 10, 11, 13], 8) -> false
      foundIntTwice( [9, 23, 44, 2, 88, 44], 44) -> true
      */
     public boolean foundIntTwice(List<Integer> integerList, int intToFind) {
+        int countFind = 0;
+        for(Integer num : integerList) {
+            if (num == intToFind) {
+                if (countFind > 1) {
+                    return true;
+                }
+            }
+            countFind++;
+        }
         return false;
     }
 
