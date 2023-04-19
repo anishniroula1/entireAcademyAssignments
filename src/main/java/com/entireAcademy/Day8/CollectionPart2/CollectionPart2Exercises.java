@@ -1,5 +1,6 @@
 package com.entireAcademy.Day8.CollectionPart2;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -35,7 +36,23 @@ public class CollectionPart2Exercises {
 	 *
 	 */
 	public String animalGroupName(String animalName) {
-		return null;
+		Map<String, String> animals = new HashMap<>();
+		animals.put("rhino", "Crash");
+		animals.put("giraffe", "Tower");
+		animals.put("elephant", "Herd");
+		animals.put("lion", "Pride");
+		animals.put("crow", "Murder");
+		animals.put("pigeon", "Kit");
+		animals.put("flamingo", "Pat");
+		animals.put("deer", "Herd");
+		animals.put("dog", "Pack");
+		animals.put("crocodile", "Float");
+
+		String animaNameInLowerCase = animalName.toLowerCase();
+		if (animals.containsKey(animaNameInLowerCase)) {
+			return animals.get(animaNameInLowerCase);
+		}
+		return "unknown";
 	}
 
 	/*
@@ -61,7 +78,20 @@ public class CollectionPart2Exercises {
 	 *
 	 */
 	public Double isItOnSale(String itemNumber) {
-		return null;
+		Map<String, Double> sales = new HashMap<>();
+		sales.put("KITCHEN4001", 0.20);
+		sales.put("GARAGE1070", 0.15);
+		sales.put("LIVINGROOM", 0.10);
+		sales.put("KITCHEN6073", 0.40);
+		sales.put("BEDROOM3434", 0.60);
+		sales.put("BATH0073", 0.15);
+
+		String key = itemNumber.toUpperCase();
+
+		if (sales.containsKey(key)) {
+			return sales.get(key);
+		}
+		return 0.00;
 	}
 
 	/*
