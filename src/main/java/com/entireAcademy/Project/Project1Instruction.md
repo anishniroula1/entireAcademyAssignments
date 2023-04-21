@@ -37,6 +37,10 @@ Create a Main class to run the program with the following steps:
 - 5% or more and less than 10% down payment = 1.5% VA loan fee
 - 10% or more down payment = 1.25% VA loan fee
 
+# Monthly Mortgage formula
+<img width="988" alt="image" src="https://user-images.githubusercontent.com/42947580/233633484-9658fbaa-3eac-4f76-8ddf-6adcb4665df4.png">
+
+
 # Example output
 ```agsl
 Scenario 1: 
