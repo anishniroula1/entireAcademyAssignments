@@ -11,19 +11,20 @@ VA funding fee percentage
 Interest rate
 Property tax
 Home insurance
-Create a MortgageCalculator class with the following methods:
+
+Create a `MortgageCalculator` class with the following methods:
 
 `calculateLoanAmount()`: Calculate the loan amount.
 `calculateMonthlyPayment()`: Calculate the monthly payment.
 `calculateTotalPayment()`: Calculate the total payment over the loan period.
 `calculateTotalCost()`: Calculate the total cost, including taxes, insurance, and VA funding fee.
 
-Create an Investment class with the following attributes:
+Create an `Investment` class with the following attributes:
 
 Remaining cash
 Investment return percentage
-Create an InvestmentCalculator class with the following method:
 
+Create an `InvestmentCalculator` class with the following method:
 `calculateFutureValue()`: Calculate the future value of the investment after a specified number of years.
 Create a Main class to run the program with the following steps:
 
