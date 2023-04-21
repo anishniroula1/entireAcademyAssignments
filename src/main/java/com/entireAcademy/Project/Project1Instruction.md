@@ -70,7 +70,15 @@ Interest Rate: 5.75%
 Property Tax: $4,000.00
 Home Insurance: $1,200.00
 
-Total Cost: $901,944.08
+Scenario 1:
+Monthly payment: $2,358.93 
+
+Scenario 2:
+Do same for scenario 2
+
+Difference:
+Total Cost of 30 years of Scenraio 1: $901,944.08
+Total Cost of 30 years of Scenraio 2: $801,944.08
 Investment Growth: N/A
 Difference: $901,944.08
 
