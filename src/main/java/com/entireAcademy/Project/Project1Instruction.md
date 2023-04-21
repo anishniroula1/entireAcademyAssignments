@@ -32,6 +32,10 @@ Create a Main class to run the program with the following steps:
 - Calculate the difference between total costs and investment growth for each scenario.
 - Compare the two scenarios and display the better option.
 
+# Based on the down payment VA Funding fee will decrease
+- 0% down payment = 1.75% VA loan fee
+- 5% or more and less than 10% down payment = 1.5% VA loan fee
+- 10% or more down payment = 1.25% VA loan fee
 
 # Example output
 ```agsl
