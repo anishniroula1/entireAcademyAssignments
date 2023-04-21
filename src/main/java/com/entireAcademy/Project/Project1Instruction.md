@@ -5,34 +5,32 @@ Create a mortgage calculator application that will calculate the total cost and 
 
 ## Requirements:
 Create a `Mortgage class` with the following attributes:
-Home price
-Down payment percentage
-VA funding fee percentage
-Interest rate
-Property tax
-Home insurance
+- Home price
+- Down payment percentage
+- VA funding fee percentage
+- Interest rate
+- Property tax
+- Home insurance
 
 Create a `MortgageCalculator` class with the following methods:
-
-`calculateLoanAmount()`: Calculate the loan amount.
-`calculateMonthlyPayment()`: Calculate the monthly payment.
-`calculateTotalPayment()`: Calculate the total payment over the loan period.
-`calculateTotalCost()`: Calculate the total cost, including taxes, insurance, and VA funding fee.
+- `calculateLoanAmount()`: Calculate the loan amount.
+- `calculateMonthlyPayment()`: Calculate the monthly payment.
+- `calculateTotalPayment()`: Calculate the total payment over the loan period.
+- `calculateTotalCost()`: Calculate the total cost, including taxes, insurance, and VA funding fee.
 
 Create an `Investment` class with the following attributes:
-
-Remaining cash
-Investment return percentage
+- Remaining cash
+- Investment return percentage
 
 Create an `InvestmentCalculator` class with the following method:
-`calculateFutureValue()`: Calculate the future value of the investment after a specified number of years.
-Create a Main class to run the program with the following steps:
+- `calculateFutureValue()`: Calculate the future value of the investment after a specified number of years.
 
-Instantiate two mortgage scenarios.
-Instantiate an investment for Scenario 1.
-Calculate total costs and investment growth for each scenario using MortgageCalculator and InvestmentCalculator.
-Calculate the difference between total costs and investment growth for each scenario.
-Compare the two scenarios and display the better option.
+Create a Main class to run the program with the following steps:
+- Instantiate two mortgage scenarios.
+- Instantiate an investment for Scenario 1.
+- Calculate total costs and investment growth for each scenario using MortgageCalculator and InvestmentCalculator.
+- Calculate the difference between total costs and investment growth for each scenario.
+- Compare the two scenarios and display the better option.
 
 
 # Example output
